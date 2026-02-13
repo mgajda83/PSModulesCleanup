@@ -15,7 +15,7 @@ Clear-OldModules -LatestModulesToKeep 1 -CheckOnly $false
 Clear-OldModules -ModulesFilter "Microsoft.Graph.Beta" -LatestModulesToKeep 2 -CheckOnly $true
 ```
 
-**MacOS example. Leave the last 2 versions of the Microsoft.Graph.Beta.DirectoryManagement modules.** 
+**MacOS example. Leave the last 2 versions of the Microsoft.Graph.Beta.Identity modules.** 
 ```
 Clear-OldModules -ModulesFilter "Microsoft.Graph.Beta.Identity" -LatestModulesToKeep 2 -ModulesPath /Users/username/.local/share/powershell/Modules
 ```
