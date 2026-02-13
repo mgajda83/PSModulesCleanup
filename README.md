@@ -1,9 +1,10 @@
-Install module
+# Install module
 ```
 Install-Module -Name PSModulesCleanup -Repository PSGallery -Force
 ```
 
-Examples:
+# Examples:
+
 Clear all PS modules leaving only the latest version
 ```
 Clear-OldModules -LatestModulesToKeep 1 -CheckOnly $false
